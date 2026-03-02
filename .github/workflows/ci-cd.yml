@@ -92,7 +92,7 @@ jobs:
           test_command "bin/tmpl-linux-amd64 license"
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v7
         with:
           name: artifacts
           path: |
